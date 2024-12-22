@@ -1,11 +1,11 @@
 :root {
-  --background-colour: #1A1B26;
-  --background-colour-transparent: #1A1B26C0;
-  --background-colour-darker: #101018;
-  --background-colour-hover: #292E42;
-  --background-colour-active: #283457;
-  --foreground-colour: #C0CAF5;
-  --foreground-colour-darker: #8F96B7;
-  --blue-colour: #7AA2F7;
-  --blue-colour-darker: #6283C9;
+    --background-colour: #1A1B26;
+    --background-colour-transparent: #1A1B26C0;
+    --background-colour-darker: #101018;
+    --background-colour-hover: #292E42;
+    --background-colour-active: #283457;
+    --foreground-colour: #C0CAF5;
+    --foreground-colour-darker: #8F96B7;
+    --blue-colour: #7AA2F7;
+    --blue-colour-darker: #6283C9;
 }
