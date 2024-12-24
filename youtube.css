@@ -60,7 +60,7 @@
 /*    FEATURES    */
 /******************/
 
-/*  Viewed Videos are 75% Transparent Until Hovered Over  */
+/*  Transparent thumbnails for viewed videos.  */
     ytd-compact-video-renderer,
     ytd-rich-item-renderer,
     ytd-grid-video-renderer {
@@ -73,7 +73,7 @@
         }
     }
 
-/*  Adds a transparent background to the media controls.  */
+/*  Transparent background for media controls.  */
     .ytp-chrome-bottom {
         background-color: var(--background-colour-transparent) !important;
         text-shadow: none !important;
@@ -88,6 +88,7 @@
     However, YouTube doesn't always make it easy to select specific things.
     If you see anything that looks off, let me know on GitHub!  */
 
+/*  Buttons  */
     #voice-search-button {
         display: none !important;
     }
@@ -141,8 +142,6 @@
     }
 
 /*  Advertisements and Sponsored Content  */
-    /*  These should be dealt with by your ad blocker,
-        but I can remove them here with CSS rules, so why not.  */
     ytd-rich-item-renderer:has(ytd-ad-slot-renderer) {
         display: none !important;
     }
@@ -164,12 +163,11 @@
         display: none !important;
     }
 
-/*  Promotional Banners  */
+/*  Banners  */
     ytd-banner-promo-renderer {
         display: none !important;
     }
 
-/*  Other Banners  */
     ytd-statement-banner-renderer {
         display: none !important;
     }
@@ -203,6 +201,7 @@
         }
     }
 
+/*  Dropdown Menu  */
     .yt-contextual-sheet-layout-wiz {
         background-color: var(--background-colour) !important;
     }
@@ -298,6 +297,7 @@
         }
     }
 
+    /*  Progress Bar  */
     .ytp-progress-list {
         background: var(--background-colour-hover) !important;
     }
@@ -315,6 +315,7 @@
         background-color: var(--blue-colour) !important;
     }
 
+    /*  Media Control Buttons  */
     .ytp-button path {
         fill: var(--foreground-colour) !important;
     }
@@ -359,6 +360,7 @@
         background-color: var(--blue-colour) !important;
     }
 
+    /*  Captions  */
     .ytp-caption-segment {
         background-color: var(--background-colour-transparent) !important;
     }
@@ -436,7 +438,7 @@
         }
     }
 
-/*  Search  */
+/*  Searchbox  */
     #container.ytd-searchbox {
         padding-right: 16px !important;
         border-radius: 40px !important;
@@ -510,7 +512,7 @@
         background-color: var(--background-colour-active) !important;
     }
 
-/*  Advertisement Skip Button ( In case you're not using an ad blocker. )  */
+/*  Advertisement Skip Button  */
     .ytp-ad-skip-button-modern {
         background: var(--background-colour) !important;
         color: var(--foreground-colour) !important;
