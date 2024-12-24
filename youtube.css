@@ -312,6 +312,10 @@
     }
 
 /*  Video Player  */
+    ytd-player, #container.ytd-player {
+        background: black !important;
+    }
+
     .html5-video-player,
     .html5-video-player a:hover {
         color: var(--foreground-colour) !important;
@@ -322,8 +326,12 @@
         background: var(--background-colour-hover) !important;
     }
 
+    .ytp-cairo-refresh-signature-moments .ytp-play-progress {
+        background: var(--blue-colour) !important;
+    }
+
     .ytp-load-progress {
-        opacity: 0.3 !important;
+        opacity: 0.4 !important;
         background: var(--blue-colour) !important;
     }
 
@@ -333,6 +341,12 @@
 
     .ytp-hover-progress-light {
         background: #0000 !important;
+    }
+
+    .ytp-heat-map-graph,
+    .ytp-heat-map-hover,
+    .ytp-heat-map-graph {
+        fill: var(--foreground-colour) !important;
     }
 
     /*  Media Control Buttons  */
@@ -348,8 +362,8 @@
         }
 
         &::after {
-            opacity: 0.25 !important;
-            background: var(--foreground-colour) !important;
+            background: var(--background-colour-hover) !important;
+            z-index: -1 !important;
         }
     }
 
@@ -361,10 +375,10 @@
     }
 
     .ytp-autonav-toggle-button {
-        background: var(--background-colour) !important;
+        background: var(--background-colour-hover) !important;
 
         &::after {
-            background: var(--foreground-colour-darker) !important;
+            background: var(--foreground-colour) !important;
         }
 
         &[aria-checked="true"]::after {
@@ -380,9 +394,51 @@
         background-color: var(--blue-colour) !important;
     }
 
+    /*  Settings Menu  */
+    .ytp-popup {
+        background: var(--background-colour) !important;
+    }
+
+    .ytp-panel-menu {
+        color: var(--foreground-colour) !important;
+        padding: 0 !important;
+    }
+
+    .ytp-menuitem:hover {
+        background: var(--background-colour-hover) !important;
+    }
+
+    .ytp-menuitem-icon .ytp-menuitempath {
+        fill: var(--foreground-colour) !important;
+    }
+
     /*  Captions  */
     .ytp-caption-segment {
         background: var(--background-colour-transparent) !important;
+        color: var(--foreground-colour) !important;
+    }
+
+    /*  Tooltips  */
+    .ytp-tooltip-text {
+        background-color: var(--background-colour-transparent) !important;
+        color: var(--foreground-colour) !important;
+    }
+
+    .ytp-tooltip.ytp-preview {
+        background-color: var(--background-colour-transparent) !important;
+    }
+
+    .ytp-tooltip.ytp-text-detail .ytp-tooltip-title {
+        color: var(--foreground-colour) !important;
+    }
+
+    .ytp-tooltip.ytp-text-detail.ytp-preview .ytp-tooltip-text {
+        background-color: transparent !important;
+    }
+
+    .ytp-fine-scrubbing-exp .ytp-preview:not(.ytp-text-detail) .ytp-tooltip-edu svg,
+    .ytp-progress-bar-decoration .ytp-tooltip-title svg {
+        fill: var(--foreground-colour) !important;
     }
 
 /*  Like & Dislike Seperator  */
