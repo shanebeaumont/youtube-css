@@ -454,48 +454,53 @@
     }
 
 /*  Searchbox  */
-    #container.ytd-searchbox {
-        padding-right: 16px !important;
-        border-radius: 40px !important;
-        margin-right: 32px !important;
-    }
-
-    ytd-searchbox[has-focus] #container.ytd-searchbox {
-        padding-right: 16px !important;
-        border: none !important;
-        margin-right: 0 !important;
-    }
-
-    #search-icon-legacy {
-        display: none !important;
-    }
-
-    #search-clear-button {
-        display: none !important;
-    }
-
-    .sbsb_a {
-        background: var(--background-colour) !important;
-    }
-
-    .sbdd_b {
-        background: var(--background-colour) !important;
-        border: none !important;
-    }
-
-    .sbsb_c.gsfs {
+    .ytSearchboxComponentHost {
         color: var(--foreground-colour) !important;
     }
 
-    .sbqs_c::before {
-        display: none !important;
+    .ytSearchboxComponentInputBox {
+        background-color: var(--background-colour) !important;
+        border-color: var(--background-colour-hover) !important;
+        box-shadow: none !important;
     }
 
-    .sbsb_d:hover {
-        background: var(--background-colour-hover) !important;
+    .ytSearchboxComponentInputBoxHasFocus {
+        border-color: var(--blue-colour) !important;
     }
 
-    .sbfl_a {
+    .ytSearchboxComponentInput {
+        color: var(--foreground-colour) !important;
+    }
+
+    .ytSearchboxComponentSearchButton {
+        background-color: var(--background-colour) !important;
+        color: var(--foreground-colour-darker) !important;
+        border: 1px solid var(--background-colour-hover) !important;
+
+        &:hover {
+            background-color: var(--background-colour-hover) !important;
+        }
+    }
+
+    .ytSearchboxComponentSuggestionsContainer {
+        background-color: var(--background-colour) !important;
+        border: 1px solid var(--background-colour-hover) !important;
+    }
+
+    .ytSuggestionComponentSuggestion {
+        color: var(--foreground-colour) !important;
+    }
+
+    .ytSuggestionComponentSuggestionHover:hover {
+        background-color: var(--background-colour-hover) !important;
+        cursor: pointer !important;
+    }
+
+    .ytSuggestionComponentText {
+        cursor: pointer !important;
+    }
+
+    .ytSearchboxComponentReportButton {
         color: var(--foreground-colour-darker) !important;
     }
 
