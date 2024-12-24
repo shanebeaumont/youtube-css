@@ -93,6 +93,10 @@
         display: none !important;
     }
 
+    ytd-button-renderer [aria-label="Create"] {
+        display: none !important;
+    }
+
 /*  Side Panel  */
     ytd-guide-entry-renderer:has(a[title="Your movies & TV"]) {
         display: none !important;
@@ -169,6 +173,16 @@
     }
 
     ytd-statement-banner-renderer {
+        display: none !important;
+    }
+
+/*  Surveys  */
+    ytd-rich-section-renderer:has(.ytd-inline-survey-renderer) {
+        display: none !important;
+    }
+
+/*  YouTube Playables  */
+    ytd-rich-section-renderer:has([title="YouTube Playables"]) {
         display: none !important;
     }
 
