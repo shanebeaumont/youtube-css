@@ -279,7 +279,12 @@
     }
 
     .yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--outline {
+        color: var(--blue-colour) !important;
         border-color: var(--background-colour-hover) !important;
+
+        &:hover {
+            background: var(--background-colour-hover) !important;
+        }
     }
 
     .yt-spec-icon-badge-shape,
