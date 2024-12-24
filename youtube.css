@@ -162,6 +162,11 @@
         display: none !important;
     }
 
+/*  Offers  */
+    #offer-module {
+        display: none !important;
+    }
+
 /*  Promotional Pop-Ups  */
     tp-yt-paper-dialog:has(#mealbar-promo-renderer) {
         display: none !important;
