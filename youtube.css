@@ -211,7 +211,7 @@
         color: var(--foreground-colour-darker) !important;
 
         &:hover {
-            color: var(--foreground-colour-darker-hover) !important;
+            color: var(--foreground-colour) !important;
         }
     }
 
