@@ -224,9 +224,10 @@
         background-color: var(--background-colour-hover) !important;
     }
 
-    .radio-shape-wiz__label-container,
+    .yt-list-item-view-model-wiz,
+    .yt-list-item-view-model-wiz__title,
     .yt-list-item-view-model-wiz__accessory,
-    .yt-list-item-view-model-wiz__title {
+    .radio-shape-wiz__label-container {
         color: var(--foreground-colour) !important;
     }
 
@@ -242,34 +243,37 @@
     }
 
 /*  Buttons  */
-    .yt-spec-button-shape-next--mono,
-    .yt-spec-button-shape-next--tonal {
-        background-color: var(--background-colour) !important;
+    .yt-spec-button-shape-next--mono.yt-spec-button-shape-next--filled,
+    .yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal {
+        background: var(--background-colour) !important;
         color: var(--foreground-colour) !important;
 
         &:hover {
-            background-color: var(--background-colour-hover) !important;
+            background: var(--background-colour-hover) !important;
         }
     }
 
-    .yt-spec-button-shape-next--call-to-action {
+    .yt-spec-button-shape-next--mono.yt-spec-button-shape-next--text {
+        color: var(--foreground-colour) !important;
+
+        &:hover {
+            background: var(--background-colour-hover) !important;
+        }
+    }
+
+    .yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--outline {
+        color: var(--foreground-colour) !important;
+    }
+
+    .yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--text {
         color: var(--blue-colour) !important;
 
         &:hover {
-            background-color: var(--background-colour-hover) !important;
-        }
-
-        &.yt-spec-button-shape-next--filled {
-            background-color: var(--blue-colour) !important;
-            color: var(--background-colour) !important;
-
-            &:hover {
-                background-color: var(--blue-colour-darker) !important;
-            }
+            background: var(--background-colour-hover) !important;
         }
     }
 
-    .yt-spec-button-shape-next--outline {
+    .yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--outline {
         border-color: var(--background-colour-hover) !important;
     }
 
@@ -303,12 +307,9 @@
     }
 
 /*  Video Player  */
-    .html5-video-player {
+    .html5-video-player,
+    .html5-video-player a:hover {
         color: var(--foreground-colour) !important;
-
-        & a:hover {
-            color: var(--foreground-colour) !important;
-        }
     }
 
     /*  Progress Bar  */
@@ -321,16 +322,16 @@
         background: var(--blue-colour) !important;
     }
 
-    .ytp-hover-progress-light {
-        background: #0000 !important;
-    }
-
     .ytp-swatch-background-color {
         background-color: var(--blue-colour) !important;
     }
 
+    .ytp-hover-progress-light {
+        background: #0000 !important;
+    }
+
     /*  Media Control Buttons  */
-    .ytp-button path {
+    .ytp-button svg path {
         fill: var(--foreground-colour) !important;
     }
 
@@ -350,7 +351,7 @@
     .ytp-time-current,
     .ytp-time-separator,
     .ytp-time-duration,
-    .ytp-chapter-title-content{
+    .ytp-chapter-title-content {
         color: var(--foreground-colour) !important;
     }
 
@@ -366,17 +367,17 @@
         }
     }
 
-    .ytp-chrome-controls .ytp-button[aria-pressed]::after {
+    .ytp-cairo-refresh .ytp-chrome-controls .ytp-button[aria-pressed]::after {
         background-color: var(--blue-colour) !important;
     }
 
-    .ytp-settings-button.ytp-hd-quality-badge::after {
+    .ytp-cairo-refresh .ytp-settings-button.ytp-hd-quality-badge::after {
         background-color: var(--blue-colour) !important;
     }
 
     /*  Captions  */
     .ytp-caption-segment {
-        background-color: var(--background-colour-transparent) !important;
+        background: var(--background-colour-transparent) !important;
     }
 
 /*  Like & Dislike Seperator  */
@@ -384,14 +385,14 @@
         background-color: var(--background-colour-hover) !important;
     }
 
-/*  Video Description  */
-    #description.ytd-watch-metadata {
-        border: 1px solid var(--background-colour-hover) !important;
-    }
-
 /*  Author & Subscriber Count  */
     #upload-info.ytd-video-owner-renderer {
         margin-right: 8px !important;
+    }
+
+/*  Video Description  */
+    #description.ytd-watch-metadata {
+        border: 1px solid var(--background-colour-hover) !important;
     }
 
 /*  Author Comment Badge  */
