@@ -203,6 +203,21 @@
         color: var(--foreground-colour) !important;
     }
 
+/*  Thumbnails  */
+    #channel-name.ytd-video-meta-block:hover {
+        color: var(--foreground-colour) !important;
+    }
+
+    ytd-thumbnail-overlay-resume-playback-renderer[enable-refresh-signature-moments-web]
+    #progress.ytd-thumbnail-overlay-resume-playback-renderer {
+        background: var(--blue-colour) !important;
+    }
+
+/*  Playlist Thumbnails  */
+    .yt-lockup-metadata-view-model-wiz__title {
+        color: var(--foreground-colour) !important;
+    }
+
 /*  Page Header  */
     .page-header-view-model-wiz__page-header-title {
         color: var(--foreground-colour) !important;
