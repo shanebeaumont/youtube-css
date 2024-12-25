@@ -209,7 +209,7 @@
     }
 
     .truncated-text-wiz {
-        color: var(--foreground-colour) !important;
+        color: var(--foreground-colour-darker) !important;
     }
 
     .truncated-text-wiz__absolute-button {
@@ -458,7 +458,7 @@
 
 /*  Video Description  */
     #description.ytd-watch-metadata {
-        border: 1px solid var(--background-colour-hover) !important;
+        background: var(--background-colour-darker) !important;
     }
 
 /*  Author Comment Badge  */
