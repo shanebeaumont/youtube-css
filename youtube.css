@@ -199,6 +199,16 @@
         background-color: var(--background-colour-active) !important;
     }
 
+/*  Links  */
+    .yt-core-attributed-string__link:hover {
+        text-decoration: underline !important;
+    }
+
+    .yt-core-attributed-string--link-inherit-color
+    .yt-core-attributed-string__link--call-to-action-color {
+        color: var(--blue-colour) !important;
+    }
+
     .yt-core-attributed-string--link-inherit-color {
         color: var(--foreground-colour) !important;
     }
