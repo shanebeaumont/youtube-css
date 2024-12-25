@@ -486,6 +486,18 @@
         background: var(--background-colour-darker) !important;
     }
 
+/*  Video Attributes  */
+    .yt-video-attributes-section-view-model__title,
+    .yt-video-attribute-view-model__title {
+        color: var(--foreground-colour) !important;
+    }
+
+    .yt-video-attributes-section-view-model__subtitle,
+    .yt-video-attribute-view-model__subtitle,
+    .yt-video-attribute-view-model__secondary-subtitle {
+        color: var(--foreground-colour-darker) !important;
+    }
+
 /*  Author Comment Badge  */
     ytd-author-comment-badge-renderer[creator] {
         --ytd-author-comment-badge-background-color: var(--background-colour-hover) !important;
