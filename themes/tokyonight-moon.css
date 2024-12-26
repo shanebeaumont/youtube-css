@@ -1,9 +1,9 @@
 :root {
     --background-colour: #222436;
-    --background-colour-transparent: #222436C1;
-    --background-colour-darker: #161826;
+    --background-colour-transparent: #222436BF;
+    --background-colour-darker: #1B1C2B;
     --background-colour-hover: #2F334D;
-    --background-colour-active: #2D3F76;
+    --background-colour-active: #2C3D73;
     --foreground-colour: #C8D3F5;
     --foreground-colour-darker: #979fbA;
     --blue-colour: #82AAFF;
