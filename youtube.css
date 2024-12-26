@@ -507,6 +507,14 @@
         background: var(--background-colour-darker) !important;
     }
 
+    .arrow-container.ytd-video-description-infocards-section-renderer {
+        box-shadow: none !important;
+
+        &:hover {
+            background-color: var(--background-colour) !important;
+        }
+    }
+
 /*  Video Attributes  */
     .yt-video-attributes-section-view-model__title,
     .yt-video-attribute-view-model__title {
