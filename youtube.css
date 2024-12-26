@@ -303,6 +303,15 @@
         }
     }
 
+    .yt-spec-button-shape-next--mono.yt-spec-button-shape-next--outline {
+        color: var(--foreground-colour) !important;
+        border-color: var(--background-colour-hover) !important;
+
+        &:hover {
+            background: var(--background-colour-hover) !important;
+        }
+    }
+
     .yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--outline {
         color: var(--foreground-colour) !important;
     }
