@@ -1,0 +1,11 @@
+:root {
+    --background-colour: #24273A;
+    --background-colour-transparent: #24273AC2;
+    --background-colour-darker: #1e2030;
+    --background-colour-hover: #494d64;
+    --background-colour-active: #4B3F5B;
+    --foreground-colour: #CAD3F5;
+    --foreground-colour-darker: #A5ADCB;
+    --accent-colour: #C6A0F6;
+    --accent-colour-darker: #A380CE;
+}
