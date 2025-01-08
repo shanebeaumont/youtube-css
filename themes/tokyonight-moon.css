@@ -1,11 +1,12 @@
 :root {
     --background-colour: #222436;
     --background-colour-transparent: #222436BF;
-    --background-colour-darker: #1B1C2B;
-    --background-colour-hover: #2F334D;
+    --background-colour-dark: #1B1C2B;
+    --background-colour-selection: #2F334D;
     --background-colour-active: #2C3D73;
     --foreground-colour: #C8D3F5;
-    --foreground-colour-darker: #979fbA;
+    --foreground-colour-dark: #979fbA;
+    --red-colour: #F7768E;
+    --blue-colour: #82AAFF;
     --accent-colour: #82AAFF;
-    --accent-colour-darker: #6B8CD3;
 }
