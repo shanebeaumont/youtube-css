@@ -439,11 +439,15 @@
         background: var(--background-colour-selection) !important;
 
         &::after {
-            background: var(--foreground-colour) !important;
+            background: var(--foreground-colour-dark) !important;
         }
 
-        &[aria-checked="true"]::after {
+        &[aria-checked="true"] {
             background: var(--accent-colour) !important;
+
+            &::after {
+                background: var(--foreground-colour) !important;
+            }
         }
     }
 
