@@ -65,7 +65,7 @@
     ytd-rich-item-renderer,
     ytd-grid-video-renderer {
         &:has(ytd-thumbnail-overlay-resume-playback-renderer) {
-            opacity: 0.25 !important;
+            opacity: 0.29 !important;
 
             &:hover {
                 opacity: 1 !important;
