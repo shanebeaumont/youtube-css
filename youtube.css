@@ -502,6 +502,12 @@
         fill: var(--foreground-colour) !important;
     }
 
+/*  Like Button  */
+
+    yt-animated-icon[animated-icon-type="LIKE"] path {
+        fill: var(--foreground-colour) !important;
+    }
+
 /*  Like & Dislike Seperator  */
     .yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--segmented-start::after {
         background-color: var(--background-colour-selection) !important;
