@@ -216,7 +216,7 @@
 
     .yt-core-attributed-string--link-inherit-color,
     .yt-core-attributed-string__link--call-to-action-color {
-        color: var(--accent-colour) !important;
+        color: var(--blue-colour) !important;
     }
 
     .yt-core-attributed-string--link-inherit-color {
