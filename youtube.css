@@ -199,6 +199,10 @@
         background-color: var(--background-colour-selection) !important;
     }
 
+    html {
+        background-color: var(--background-colour) !important;
+    }
+
 /*  Navigation Progress Bar  */
 
     yt-page-navigation-progress {
