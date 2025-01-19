@@ -507,9 +507,8 @@
         fill: var(--foreground-colour) !important;
     }
 
-/*  Like Button  */
-
-    yt-animated-icon[animated-icon-type="LIKE"] path {
+/*  Animated Icons  */
+    yt-animated-icon path {
         fill: var(--foreground-colour) !important;
     }
 
