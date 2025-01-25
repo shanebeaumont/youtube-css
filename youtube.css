@@ -685,7 +685,7 @@
     }
 
     ytd-guide-entry-renderer[active] {
-        background-color: var(--background-colour-active) !important;
+        background-color: var(--background-colour-selection) !important;
     }
 
 /*  Advertisement Skip Button  */
