@@ -251,7 +251,7 @@
 
     ytd-playlist-panel-video-renderer[selected][use-color-palette],
     ytd-playlist-panel-video-renderer[selected][use-color-palette]:hover:not(.dragging) {
-        background-color: var(--background-colour-active) !important;
+        background-color: var(--background-colour-selection) !important;
     }
 
 /*  Page Header  */
