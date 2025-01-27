@@ -361,6 +361,12 @@
         }
     }
 
+/*  Fundraiser Badge  */
+    .badge-style-type-ypc.ytd-badge-supported-renderer {
+        background: var(--background-colour-dark) !important;
+        color: var(--green-colour) !important;
+    }
+
 /*  Live Chat  */
     yt-live-chat-viewer-engagement-message-renderer
     .yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--text:hover {
