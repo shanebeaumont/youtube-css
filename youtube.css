@@ -232,6 +232,10 @@
         color: var(--foreground-colour) !important;
     }
 
+    .ytThumbnailOverlayProgressBarHostWatchedProgressBar {
+        background-color: var(--background-colour-selection) !important;
+    }
+
     ytd-thumbnail-overlay-resume-playback-renderer[enable-refresh-signature-moments-web]
     #progress.ytd-thumbnail-overlay-resume-playback-renderer,
     .ytThumbnailOverlayProgressBarHostWatchedProgressBarSegmentModern {
