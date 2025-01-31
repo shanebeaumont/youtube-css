@@ -37,7 +37,7 @@ Catppuccin
 
 ### Change the Theme
 
-1. Open `youtube.css` in a text editor.
+1. Open `userContent.css` in a text editor.
 2. At the top, you'll see this import: `@import url(./themes/tokyonight-night.css);`
 3. Edit the import URL to your desired theme.
 4. For example: `@import url(./themes/catppuccin-mocha.css);`
