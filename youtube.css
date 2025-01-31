@@ -233,7 +233,8 @@
     }
 
     ytd-thumbnail-overlay-resume-playback-renderer[enable-refresh-signature-moments-web]
-    #progress.ytd-thumbnail-overlay-resume-playback-renderer {
+    #progress.ytd-thumbnail-overlay-resume-playback-renderer,
+    .ytThumbnailOverlayProgressBarHostWatchedProgressBarSegmentModern {
         background: var(--accent-colour) !important;
     }
 
