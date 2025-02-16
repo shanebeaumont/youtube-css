@@ -469,8 +469,8 @@
         background-color: var(--accent-colour) !important;
     }
 
-    .ytp-cairo-refresh .ytp-settings-button.ytp-hd-quality-badge::after,
-    .ytp-cairo-refresh .ytp-settings-button.ytp-4k-quality-badge::after {
+    .ytp-settings-button.ytp-hd-quality-badge::after,
+    .ytp-settings-button.ytp-4k-quality-badge::after {
         background-color: var(--accent-colour) !important;
     }
 
