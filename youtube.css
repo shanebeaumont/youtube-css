@@ -401,7 +401,7 @@
         background: var(--background-colour-selection) !important;
     }
 
-    .ytp-cairo-refresh-signature-moments .ytp-play-progress {
+    .ytp-play-progress {
         background: var(--accent-colour) !important;
     }
 
