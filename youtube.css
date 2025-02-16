@@ -27,6 +27,7 @@
         --yt-spec-brand-icon-inactive: var(--foreground-colour) !important;
         --yt-spec-wordmark-text: var(--foreground-colour) !important;
         --yt-spec-themed-blue: var(--accent-colour) !important;
+        --yt-spec-themed-green: var(--green-colour) !important;
         --yt-spec-static-brand-red: var(--accent-colour) !important;
         --yt-spec-static-brand-white: var(--foreground-colour) !important;
         --yt-spec-static-overlay-background-solid: var(--background-colour) !important;
